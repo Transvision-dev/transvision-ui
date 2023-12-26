@@ -23,7 +23,7 @@ const Upload: React.FC = () => {
             }}
 
         >
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center m-6">
                 <h1 className="text-3xl font-bold">Upload</h1>
                 <p className="text-xl">Upload your file here</p>
             </div>
@@ -32,7 +32,7 @@ const Upload: React.FC = () => {
                 <>{newFile? newFile.name : ""}</>
             </div>
             <div>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-6">
                     Upload
                 </button>
             </div>
